@@ -1,0 +1,185 @@
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    font-family: 'Public Sans';
+  }
+
+  .body-container {
+    max-width: 87%;
+    margin: auto;
+    
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .header-container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+
+  #green {
+    color: #5FB4A2;
+  }
+ 
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  .intro-text {
+    font-family: 'Ibarra Real Nova', sans-serif;                                    
+    text-align: left;
+    margin-top: 7em;
+    font-size: 2.5em;
+
+  }
+  .intro  .aboutme-button {
+    padding-top: 10em;
+    
+  }
+  
+  #gp {
+    position: relative;
+    padding-top: 5px;
+    margin-top: 5px;
+    
+    height: 1.5em;
+  }
+  .aboutme-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #203A4C;
+    height: 1em;
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+  .about{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 94%;
+  }
+
+  .left-about img{ 
+    max-width: 40em;
+    height: 500px;
+  }
+
+  .right-about {
+    text-align: left;
+    max-width: 35%;
+    margin-left: auto;
+    margin-left: 4em;
+    border-top: 1px solid rgb(23, 22, 22);
+    border-bottom: 1px solid black;
+    text-align: justify;
+   /* border-top-width: 5px;
+    border-bottom-width: 15px; */
+    
+      
+    display: inline-block;
+  }
+
+  .right-about button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    height: 2.5rem;
+  }
+  
+
+  .main-content {
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .about .line {
+   width: 80%;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 2;
+    align-items: center;
+  }
+  
+  .column {
+   display: flex;
+    justify-content: center;
+  }
+  .contact {
+    margin-top: 3em;
+ 
+    align-items: center;
+  }
+
+   .hr {
+    background-color: #000;
+    height: 2px;
+    width: 50%;
+  }
+
+  .contact-text {
+    font-size: 1.5em;
+    font-family: 'Ibarra Real Nova', sans-serif;
+                                                
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    height: 1em;
+  }
+  
+  .footer-container {
+    background-color: #333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-container .footer-links {
+        padding-left: -2px;
+  }
+
+  .footer-container a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .footer-logo {
+    font-size: 1.5em;
+  }
+  
+  .social-icons {
+    margin-left: 50em;
+    display: flex;
+    justify-content: flex-end;
+}
+  .social-icons a {
+    padding: 3px;
+  }
